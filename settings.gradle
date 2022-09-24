@@ -1,0 +1,3 @@
+rootProject.name = 'mipt-course'
+
+include 'hw_01'
