@@ -46,10 +46,6 @@ public class ReportGeneratorImpl<T> implements ReportGenerator<T> {
                 }
             });
 
-            fields.forEach((key, value) -> {
-                System.out.println(key);
-                value.forEach(System.out::println);
-            });
             return new ReportImpl(fields);
         }
 
